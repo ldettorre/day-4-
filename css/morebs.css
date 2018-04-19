@@ -1,0 +1,9 @@
+.funny {
+    animation-name:    fadein;
+    animation: fadein 5s;
+}
+
+@keyframes fadein{
+    0%     {-webkit-blur:0;}
+    100%    {opacity:0.9;}
+}
